@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+.Page-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+.navbar{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+.page-body{
+    display: flex;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.sidebar{
+    width: 100px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+.content{
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+.footer{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    padding: 10px;
+}
